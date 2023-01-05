@@ -77,4 +77,3 @@ Figure [9]: Prediction of Emotions from Manipulated Images in CNN
 One of the challenges we had in our project was accurately working with the facial annotation. On the images of a single individual, we effectively executed the face annotation; nevertheless, there were some incorrect facial feature extractions from the group images. Additionally, we observed considerable racial facial bias [16]. Another issue was that accuracy in CNN was constantly lower even after training it with 10, 15, 20, 50, and 100 epochs. Additionally, there was a computational limitation that prevented us from enhancing CNN. We may think of the difficulties we encountered as the project's possible future scope.
  
 Figure [10]: Showing Racial Biasing and Facial Annotation Challenge
-![image](https://user-images.githubusercontent.com/11815663/210856758-ee3ca38b-b43e-4a7e-84e8-2581693d1c3b.png)
