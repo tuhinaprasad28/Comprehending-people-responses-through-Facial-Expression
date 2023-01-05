@@ -63,12 +63,8 @@ After training the models CNN, SVM, running these two models with Deep Face and 
 Models	Accuracy	Predictions
 
 
-CNN	0.5988                   	 
+<img width="667" alt="image" src="https://user-images.githubusercontent.com/11815663/210859439-6cf4b288-e60f-4dfa-b9b4-ff70dda5d80b.png">               	 
 
-SVM	   0.4605                   	 
-
-
-DeepFace	0.8452                 	 
 Figure [5]: Accuracies and Predictions From CNN, SVM and DeepFace
 Real-time/Live Webcam Emotion Predictions:
                                                                              Figure [6]: Real-time prediction from CNN                                                          Figure [7]: Real-time prediction from DeepFace
