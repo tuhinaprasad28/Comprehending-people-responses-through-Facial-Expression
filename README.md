@@ -27,6 +27,8 @@ Anger, disgust, fear, happiness, sadness, surprise, and neutral are the seven em
 
 Anger	Disgust	Fear	Happiness	Neutral	Sadness	Surprise
 4953	547	5121	8989	6198	6077	4002
+![image](https://user-images.githubusercontent.com/11815663/210857751-22aff7c1-df30-4ff1-b946-33cd11b00b7e.png)
+
 Figure [2]: Number of images for people’s expressions from dataset
 
 
