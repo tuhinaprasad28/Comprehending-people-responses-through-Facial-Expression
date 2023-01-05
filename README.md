@@ -1,10 +1,10 @@
 # Comprehending-people-responses-through-Facial-Expression
-PROBLEM STATEMENT
+## PROBLEM STATEMENT
 Images are used as input and output signals in the field of image processing. One of the most important uses of image processing is the recognition of facial expressions. Our faces convey our emotions through non-verbal face gestures known as facial expressions. Interpersonal communication depends on facial expressions [1]. They are comparable only to voice tone in relevance to daily emotional communication. They also function as a feeling indicator, enabling a person to communicate their emotional condition [2]. A machine's capacity to perceive human emotion may lead to a variety of incredibly beneficial applications including healthcare [3]. Consider the development of comforting and assisting therapeutic robots for the sick and disabled. We were also motivated by the advantages of those with physical disabilities. The ability for a human or automated system to interpret someone's wishes from their expression will make it much simpler for people to convey their wishes, nevertheless [4]. Some other usages include examining how consumers feel when shopping with a focus on the products or how they are displayed in the store, identifying shoplifters, looking at footage from crime scenes to spot potential criminal intentions, determining how users feel about educational programs, changing the learning path, and developing efficient tutoring systems.
 
 Modern applications for automated or real-time facial expression recognition include emotion analysis, cognitive science, virtual reality, and human-computer interaction. To build a trustworthy system, it is necessary to identify several expression types that try to be recognized. This project explores the idea of employing CNN, SVM, and DeepFace approach to construct a trustworthy and reliable classifier for human emotion as revealed in still photographs and the live or real-time feed from a webcam [5]. Using information gathered from the dataset's face images that we utilized to train our models, we evaluated how well each of the three models performed in classifying human emotion. According to Ekman's [6] list of common emotions, which includes happy, sad, angry, disgusted, fear, surprise, and neutrality are the seven emotions that we are taking into consideration for face recognition in our project. To test how our models could be affected by an image's sharpness, contrast, and brightness while predicting emotions, we also manipulated the images and checked their emotion prediction in CNN and DeepFace models.
 
-INTRODUCTION
+## INTRODUCTION
 Facial expression recognition is a technique that may be carried out by humans or computers and here, our project entails:
 1.	Facial Feature Extraction: Face recognition in the surroundings and extraction of facial features from the recognized face region e.g., detecting the shape of face and its components such as eyes, using Haar-cascade in OpenCV.
 2.	Facial Expression Interpretation: Examining how the facial features move and/or change, and then categorizing this data into several interpretive categories for emotions like a grin or a frown, like joy or rage, or attitude categories like contempt or neutrality, etc. In order to do this, we employed and trained three different types of models, as follows:
@@ -17,7 +17,7 @@ c.	DeepFace: DeepFace is the Python face recognition and facial attribute (age, 
  
 		Figure [1]: Problem formulation of our project
 
-DATASET
+## DATASET
 The Kaggle [11] Facial Expression Recognition Challenge (FER2013 [12]) provided the data set that we utilized to train our models. The columns in the dataset are:
 •	Emotion: The emotion variable represents emotions.
 •	Pixels: Pixel’s variable expresses the value per pixel in the photos.
@@ -32,14 +32,14 @@ Figure [2]: Number of images for people’s expressions from dataset
                                    Figure [3]: Class Distribution of the dataset	                            Figure [4]: Images samples from the dataset 
 
 
-DATAFLOW DIAGRAMS
+## DATAFLOW DIAGRAMS
  
  
  
  
   
 
-METHODOLOGY
+## METHODOLOGY
 This section describes the techniques used with comparison, discussion of the approaches, inputs, outputs and transformations:
 A.) Facial Feature Extraction using Haar-cascade with annotations is performed using OpenCV [13]. In this ML based method, a cascade function is trained from negative and positive images to detect the objects. This however requires tons of images for training and therefore we have used a predefined Haar-cascade in OpenCV for the eyes and face annotation in our images. This is available in an XML file [14] which we have used for our image and real-time/live webcam annotation.
 B.) CNN is a neural network-based approach where our input data shape is (48,48,1). The activation function used throughout is Relu except for the final layer where the function is a softmax function.  The CNN has a 6 convolutional layer with 1 max pooling layer after every 2 convolutional layers and two dense layers. Neural network is trained over varied epochs (10,15,20,50,100) to obtain the best performing neural network configuration.  We export our trained model in .h5 form to further usage of predication on unseen data and real time emotion recognition. 
@@ -47,7 +47,7 @@ C.) SVM is a machine learning approach that has been used for the recognition an
 D.) DeepFace is an open-source python framework for facial detection, recognition, and verification. The library can be installed using a pip command (pip install deepface). DeepFace is a collection of multiple face recognition packages. Many cutting-edge face recognition models are presently supported by it, including VGG-Face, Google FaceNet, OpenFace, Facebook DeepFace, DeepID, ArcFace, Dlib, and SFace. VGG-Face is the model used by default. The library besides emotion also provides facial attribute analysis such as age, gender, emotion, and race.
 E.) Real-time emotion recognition was performed using in-built stream function for the DeepFace model while the same was performed using Python’s OpenCV library for the CNN Model [15]. A custom function was created which accessed the system’s camera. The CNN model is then called, for predicting the emotion in real-time with face and eye annotation.
 
-CONCLUSION
+## CONCLUSION
 After training the models CNN, SVM, running these two models with Deep Face and predicting the emotions, we were able to determine the overall accuracy as illustrated below:
 
 Models	Accuracy	Predictions
@@ -73,7 +73,7 @@ CNN:
            Image Used:                                                                             Original Emotion: Angry
                              
 Figure [9]: Prediction of Emotions from Manipulated Images in CNN
-CHALLENGES/LESSON LEARNED
+## CHALLENGES/LESSON LEARNED
 One of the challenges we had in our project was accurately working with the facial annotation. On the images of a single individual, we effectively executed the face annotation; nevertheless, there were some incorrect facial feature extractions from the group images. Additionally, we observed considerable racial facial bias [16]. Another issue was that accuracy in CNN was constantly lower even after training it with 10, 15, 20, 50, and 100 epochs. Additionally, there was a computational limitation that prevented us from enhancing CNN. We may think of the difficulties we encountered as the project's possible future scope.
  
 Figure [10]: Showing Racial Biasing and Facial Annotation Challenge
