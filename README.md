@@ -69,11 +69,11 @@ Figure [5]: Accuracies and Predictions From CNN, SVM and DeepFace
 
 Real-time/Live Webcam Emotion Predictions:
 
-<img width="175" alt="image" src="https://user-images.githubusercontent.com/11815663/210859677-7bdef2a6-d299-4ac1-b169-a6edd4f62bb0.png">
+<img width="269" alt="Screenshot 2023-01-05 at 1 05 13 PM" src="https://user-images.githubusercontent.com/11815663/210860596-18727619-fc43-414b-8d8c-6a7326aca5f2.png">
 
 Figure [6]: Real-time prediction from CNN                                                          
 
-<img width="181" alt="image" src="https://user-images.githubusercontent.com/11815663/210859726-a72556e0-56c0-489d-9537-1698ebb76a2f.png">
+<img width="269" alt="Screenshot 2023-01-05 at 1 05 27 PM" src="https://user-images.githubusercontent.com/11815663/210860611-429bf458-f7bc-4e26-83d4-483de0a24fa1.png">
 
 Figure [7]: Real-time prediction from DeepFace
 
