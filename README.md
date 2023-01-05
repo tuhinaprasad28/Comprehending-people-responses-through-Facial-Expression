@@ -25,18 +25,25 @@ The Kaggle [11] Facial Expression Recognition Challenge (FER2013 [12]) provided 
 •	Usage: Usage shows which set the row it belongs to such as training and testing.
 Anger, disgust, fear, happiness, sadness, surprise, and neutral are the seven emotions represented in the dataset's 48 x 48-pixel grayscale pictures. The dataset includes 3589 instances in the public testing set, 28709 examples in the training set, and 3,589 examples in the private testing set, so in total 35,887 photos are the result of the dataset. Each face is assigned to one of seven categories, with 0 denoting anger, 1 denoting disgust, 2 denoting fear, 3 denoting happiness, 4 denoting sadness, 5 denoting surprise, and 6 denoting neutralities.
 
-Anger	Disgust	Fear	Happiness	Neutral	Sadness	Surprise
-4953	547	5121	8989	6198	6077	4002
+
 ![image](https://user-images.githubusercontent.com/11815663/210857751-22aff7c1-df30-4ff1-b946-33cd11b00b7e.png)
 
 Figure [2]: Number of images for people’s expressions from dataset
+ 
+![image](https://user-images.githubusercontent.com/11815663/210857841-5033e5f5-b05d-41f9-81da-d5de1cec112f.png)
 
+Figure [3]: Class Distribution of the dataset	 
 
-                                   Figure [3]: Class Distribution of the dataset	                            Figure [4]: Images samples from the dataset 
+![image](https://user-images.githubusercontent.com/11815663/210857929-c7c1569d-af2c-4766-97fc-185831b8de01.png)
+
+Figure [4]: Images samples from the dataset 
 
 
 ## DATAFLOW DIAGRAMS
- 
+
+<img width="528" alt="image" src="https://user-images.githubusercontent.com/11815663/210858200-58226c71-2be6-4f63-a0b7-44e543ed9594.png">
+![image](https://user-images.githubusercontent.com/11815663/210858165-42b75eac-f67e-4a8b-b89f-c86c5f5ebc56.png)
+
  
  
  
