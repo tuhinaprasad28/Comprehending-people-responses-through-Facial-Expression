@@ -42,11 +42,11 @@ Figure [4]: Images samples from the dataset
 ## DATAFLOW DIAGRAMS
 
 <img width="528" alt="image" src="https://user-images.githubusercontent.com/11815663/210858200-58226c71-2be6-4f63-a0b7-44e543ed9594.png">
-<img width="218" alt="image" src="https://user-images.githubusercontent.com/11815663/210858320-995ba01d-499d-4f4c-a5f0-c393ac739aad.png">
-<img width="218" alt="image" src="https://user-images.githubusercontent.com/11815663/210858348-9e4513a6-f6b9-4dd8-936b-00a0c90c3eaf.png">
-<img width="528" alt="image" src="https://user-images.githubusercontent.com/11815663/210858375-b6620af7-6768-4b74-a338-1f0e99eb9eee.png">
-<img width="528" alt="image" src="https://user-images.githubusercontent.com/11815663/210858397-1717492f-d635-42c3-8551-bc16c83e4e1a.png">
-<img width="528" alt="image" src="https://user-images.githubusercontent.com/11815663/210858414-943ca465-f551-4086-bcff-5df44a2eb1ff.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/11815663/210858320-995ba01d-499d-4f4c-a5f0-c393ac739aad.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/11815663/210858348-9e4513a6-f6b9-4dd8-936b-00a0c90c3eaf.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/11815663/210858375-b6620af7-6768-4b74-a338-1f0e99eb9eee.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/11815663/210858397-1717492f-d635-42c3-8551-bc16c83e4e1a.png">
+<img width="628" alt="image" src="https://user-images.githubusercontent.com/11815663/210858414-943ca465-f551-4086-bcff-5df44a2eb1ff.png">
   
 
 ## METHODOLOGY
