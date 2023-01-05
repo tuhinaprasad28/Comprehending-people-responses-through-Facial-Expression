@@ -66,19 +66,38 @@ Models	Accuracy	Predictions
 <img width="667" alt="image" src="https://user-images.githubusercontent.com/11815663/210859439-6cf4b288-e60f-4dfa-b9b4-ff70dda5d80b.png">               	 
 
 Figure [5]: Accuracies and Predictions From CNN, SVM and DeepFace
+
 Real-time/Live Webcam Emotion Predictions:
-                                                                             Figure [6]: Real-time prediction from CNN                                                          Figure [7]: Real-time prediction from DeepFace
+
+<img width="175" alt="image" src="https://user-images.githubusercontent.com/11815663/210859677-7bdef2a6-d299-4ac1-b169-a6edd4f62bb0.png">
+
+Figure [6]: Real-time prediction from CNN                                                          
+
+<img width="181" alt="image" src="https://user-images.githubusercontent.com/11815663/210859726-a72556e0-56c0-489d-9537-1698ebb76a2f.png">
+
+Figure [7]: Real-time prediction from DeepFace
+
 After predicting the emotions of the images with success, we were eager to explore how well our models would function with various image qualities. Therefore, we experimented with the brightness, contrast, and sharpness of the images and evaluated how well they performed in predicting the emotions in the CNN and DeepFace models. We concluded that CNN successfully predicted those images whereas DeepFace generated some inaccurate predictions when brightness and contrast were increased. Some of the results are attached below:
+
 DeepFace:
+             
              Image Used:                                                                         Original Emotion: Happy
+             
+<img width="690" alt="image" src="https://user-images.githubusercontent.com/11815663/210859803-2ddd0088-46d4-4401-af1e-1760f8613748.png">
 
                               
 Figure [8]: Prediction of Emotions from Manipulated Images in DeepFace
 
+
 CNN:
+
            Image Used:                                                                             Original Emotion: Angry
+
+<img width="713" alt="image" src="https://user-images.githubusercontent.com/11815663/210859903-614135ac-5e67-4339-b729-97ac60cab65f.png">
+
                              
 Figure [9]: Prediction of Emotions from Manipulated Images in CNN
+
 ## CHALLENGES/LESSON LEARNED
 One of the challenges we had in our project was accurately working with the facial annotation. On the images of a single individual, we effectively executed the face annotation; nevertheless, there were some incorrect facial feature extractions from the group images. Additionally, we observed considerable racial facial bias [16]. Another issue was that accuracy in CNN was constantly lower even after training it with 10, 15, 20, 50, and 100 epochs. Additionally, there was a computational limitation that prevented us from enhancing CNN. We may think of the difficulties we encountered as the project's possible future scope.
  
