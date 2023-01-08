@@ -14,7 +14,7 @@ c.	DeepFace: DeepFace is the Python face recognition and facial attribute (age, 
 3.	Image Manipulation: Manipulating pictures' brightness, contrast, and sharpness using Python PIL (pillow) library’s ImageEnhance module, to see how it would impact the CNN model's and DeepFace model's ability to anticipate emotions.
 4.	Real-time/Live Emotion Prediction: Prediction of emotions in real-time (webcam) using CNN model and prediction of emotion, age, race and gender in DeepFace with face annotation.
 
-<img width="652" alt="Screenshot 2023-01-05 at 1 08 16 PM" src="https://user-images.githubusercontent.com/11815663/210860938-5041465e-eef1-4b16-b08e-523af9239194.png">
+                                  <img width="652" alt="Screenshot 2023-01-05 at 1 08 16 PM" src="https://user-images.githubusercontent.com/11815663/210860938-5041465e-eef1-4b16-b08e-523af9239194.png">
 
                                   Figure [1]: Problem formulation of our project
 
