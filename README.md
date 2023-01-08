@@ -15,8 +15,7 @@ c.	DeepFace: DeepFace is the Python face recognition and facial attribute (age, 
 4.	Real-time/Live Emotion Prediction: Prediction of emotions in real-time (webcam) using CNN model and prediction of emotion, age, race and gender in DeepFace with face annotation.
 
 <img width="652" alt="Screenshot 2023-01-05 at 1 08 16 PM" src="https://user-images.githubusercontent.com/11815663/210860938-5041465e-eef1-4b16-b08e-523af9239194.png">
-
-                                Figure [1]: Problem formulation of our project
+Figure [1]: Problem formulation of our project
 
 ## DATASET
 The Kaggle Facial Expression Recognition Challenge (FER2013) provided the data set that we utilized to train our models. The columns in the dataset are:
@@ -27,8 +26,7 @@ Anger, disgust, fear, happiness, sadness, surprise, and neutral are the seven em
 
 
 ![image](https://user-images.githubusercontent.com/11815663/210857751-22aff7c1-df30-4ff1-b946-33cd11b00b7e.png)
-
-                               Figure [2]: Number of images for people’s expressions from dataset
+Figure [2]: Number of images for people’s expressions from dataset
  
 ![image](https://user-images.githubusercontent.com/11815663/210857841-5033e5f5-b05d-41f9-81da-d5de1cec112f.png)
 
